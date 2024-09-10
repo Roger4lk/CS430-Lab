@@ -1,6 +1,7 @@
 require_relative 'html'
 class main {
-    make_tag('img', {src: 'bernie.jpg'}, :empty)
-    make_tag('div', {id: 'root', class: 'frame'}, :sandwich)
-    make_tag('Gallery', {}, :selfclose)
+    html.make_tag('img', {src: 'bernie.jpg'}, :empty)
+    html.make_tag('div', {id: 'root', class: 'frame'}, :sandwich)
+    html.make_tag('Gallery', {}, :selfclose)
+
 }
