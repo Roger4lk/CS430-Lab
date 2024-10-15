@@ -1,4 +1,4 @@
-import System.Environment
+import System.Enviourment
 import Data.List
 
 stringToInts :: [String] -> [Int]
